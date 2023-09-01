@@ -9,7 +9,7 @@ let botonesEliminar = document.querySelectorAll(".carrito_producto_eliminar");
 const botonVaciar = document.querySelector("#carrito_acciones_vaciar");
 const contenedorTotal = document.querySelector("#total");
 const botonComprar = document.querySelector("#carrito_acciones_comprar");
-
+//
 
 function cargarProductosCarrito (){
     if (productosEnCarrito && productosEnCarrito.length > 0) {
